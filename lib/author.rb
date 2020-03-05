@@ -7,7 +7,7 @@ class Author
   end
   
   def posts
-    
+    Post.all.select { |posts| 
   end
   
   def add_post(posts)
